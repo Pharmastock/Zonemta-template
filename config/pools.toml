@@ -1,0 +1,14 @@
+
+# List local IP addresses that can be used for outbound TCP connections.
+# The server process MUST be able to locally bind to these addresses.
+default = ["43.249.233.137", "::"]
+
+# The alternative configuration using hostnames is commented out below:
+#
+#[[default]]
+#address = "1.2.3.4"
+#name = "ip-1.hostname"
+#
+#[[default]]
+#address = "1.2.3.5"
+#name = "ip-2.hostname"

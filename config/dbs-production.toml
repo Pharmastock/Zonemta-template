@@ -1,0 +1,12 @@
+# Database configuration
+# this file is loaded when NODE_ENV=production
+
+# MongoDB connection string
+mongo="mongodb://localhost:27017/kohinoor_smtp"
+
+
+# Redis connection string
+redis="redis://localhost:6379/2"
+
+# Database name for ZoneMTA data in MongoDB. In most cases it should be the same as in the connection string
+sender="kohinoor_smtp"

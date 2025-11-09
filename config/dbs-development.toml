@@ -1,0 +1,13 @@
+# Database configuration
+
+mongo="mongodb://localhost:27017/kohinoor_smtp"
+
+gridfs = "attachments"
+users = "users"
+sender = "zonemta"
+
+# Redis connection information
+[redis]
+host = "localhost"
+port = 6379
+db = 3
